@@ -18,7 +18,7 @@ class IndonesiaRegionServiceProvider extends PackageServiceProvider
         $package
             ->name('indonesia-region')
             ->hasConfigFile()
-            ->hasMigration('create_indonesia_region_table')
+            ->hasMigration('create_indonesia_regions_table')
             ->hasCommand(IndonesiaRegionCommand::class);
     }
 }
