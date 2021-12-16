@@ -1,4 +1,4 @@
-# This is my package indonesia-region
+# 🇮🇩 Indonesia Region
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sawirricardo/indonesia-region.svg?style=flat-square)](https://packagist.org/packages/sawirricardo/indonesia-region)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/sawirricardo/indonesia-region/run-tests?label=tests)](https://github.com/sawirricardo/indonesia-region/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -9,11 +9,10 @@ This is where your description should go. Limit it to a paragraph or two. Consid
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/indonesia-region.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/indonesia-region)
+Investing on Indonesia Region is defintely a good move from you. You can support by donating to my wallet
 
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+-   Wallet 0x3F20d326E5DA8ab6D27d9b2DdD350baB1e589d87
+-   PayPal https://www.paypal.com/paypalme/sawirricardo.
 
 ## Installation
 
