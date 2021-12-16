@@ -2,9 +2,9 @@
 
 namespace Sawirricardo\IndonesiaRegion;
 
+use Sawirricardo\IndonesiaRegion\Commands\IndonesiaRegionCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Sawirricardo\IndonesiaRegion\Commands\IndonesiaRegionCommand;
 
 class IndonesiaRegionServiceProvider extends PackageServiceProvider
 {

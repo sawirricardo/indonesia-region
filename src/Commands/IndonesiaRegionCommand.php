@@ -14,6 +14,7 @@ class IndonesiaRegionCommand extends Command
     {
         $this->comment('All done');
         $this->call('db:seed', ['--class' => 'IndonesiaRegionSeeder']);
+
         return self::SUCCESS;
     }
 }
