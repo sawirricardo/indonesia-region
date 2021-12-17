@@ -37,7 +37,7 @@
         "psr-4": {
             "Sawirricardo\\IndonesiaRegion\\": "src",
             "Sawirricardo\\IndonesiaRegion\\Database\\Factories\\": "database/factories",
-            "Sawirricardo\\IndonesiaRegion\\Database\\Seeders\\": "database/seeders",
+            "Sawirricardo\\IndonesiaRegion\\Database\\Seeders\\": "database/seeders"
         }
     },
     "autoload-dev": {
