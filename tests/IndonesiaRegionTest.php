@@ -1,12 +1,9 @@
 <?php
 
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Support\Facades\Artisan;
-use Sawirricardo\IndonesiaRegion\IndonesiaRegion;
-
 use function Pest\Laravel\artisan;
 
-
+use Sawirricardo\IndonesiaRegion\IndonesiaRegion;
 
 it('returns a collection of province', function () {
     artisan('indonesia-region:seed')->assertSuccessful();
