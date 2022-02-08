@@ -13,7 +13,7 @@ class IndonesiaRegionCommand extends Command
     public function handle(): int
     {
         $this->comment('All done');
-        $this->call('db:seed', ['--class' => 'IndonesiaRegionSeeder']);
+        $this->call('db:seed', ['--class' => 'Sawirricardo\IndonesiaRegion\Database\Seeders\IndonesiaRegionSeeder']);
 
         return self::SUCCESS;
     }
