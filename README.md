@@ -50,9 +50,9 @@ return [
 ## Usage
 
 ```php
-$provinces = \Sawirricardo\IndonesiaRegion\IndonesiaRegion::query()->provinces()->get();
-$cities = \Sawirricardo\IndonesiaRegion\IndonesiaRegion::query()->cities()->where('parent_id',1)->get();
-$districts = \Sawirricardo\IndonesiaRegion\IndonesiaRegion::query()->districts()->where('parent_id',1)->get();
+$provinces = \Sawirricardo\IndonesiaRegion\Models\IndonesiaRegion::query()->provinces()->get();
+$cities = \Sawirricardo\IndonesiaRegion\Models\IndonesiaRegion::query()->cities()->where('parent_id',1)->get();
+$districts = \Sawirricardo\IndonesiaRegion\Models\IndonesiaRegion::query()->districts()->where('parent_id',1)->get();
 ```
 
 ## Testing
