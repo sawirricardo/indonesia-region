@@ -2,9 +2,15 @@
 
 All notable changes to `indonesia-region` will be documented in this file.
 
+<<<<<<< Updated upstream
 ## Moved model to its directory - 2022-02-09
 
 - Moved model to its directory
+=======
+## 1.0.2 - 2022-02-09
+
+-   Added Laravel 9 support
+>>>>>>> Stashed changes
 
 ## 1.0.1 - 2022-02-09
 
