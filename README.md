@@ -29,10 +29,11 @@ php artisan vendor:publish --tag="indonesia-region-migrations"
 php artisan migrate
 ```
 
-<!-- You can publish the config file with:
+You can publish the config file with:
+
 ```bash
-php artisan vendor:publish --tag="indonesia-region_without_prefix-config"
-``` -->
+php artisan vendor:publish --tag="indonesia-region-config"
+```
 
 <!-- Optionally, you can publish the views using
 
@@ -40,12 +41,13 @@ php artisan vendor:publish --tag="indonesia-region_without_prefix-config"
 php artisan vendor:publish --tag="example-views"
 ``` -->
 
-<!-- This is the contents of the published config file:
+This is the contents of the published config file:
 
 ```php
 return [
+    'model' => \Sawirricardo\IndonesiaRegion\Models\IndonesiaRegion::class,
 ];
-``` -->
+```
 
 ## Usage
 
