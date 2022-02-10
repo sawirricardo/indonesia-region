@@ -4,6 +4,10 @@ All notable changes to `indonesia-region` will be documented in this file.
 
 <<<<<<< Updated upstream
 
+## v1.0.4 - 2022-02-10
+
+- Added Resources
+
 ## v1.0.3 - 2022-02-10
 
 - Added traits
