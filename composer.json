@@ -45,12 +45,6 @@
             "Sawirricardo\\IndonesiaRegion\\Tests\\": "tests"
         }
     },
-    "repositories": [
-        {
-            "type": "github",
-            "url": "https://github.com/sawirricardo/laravel-nestedset"
-        }
-    ],
     "scripts": {
         "analyse": "vendor/bin/phpstan analyse --memory-limit=2G",
         "test": "vendor/bin/pest",
