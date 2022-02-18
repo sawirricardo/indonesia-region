@@ -9,6 +9,8 @@ class IndonesiaRegion extends Model
 {
     use NodeTrait;
 
+    public $timestamps = false;
+
     public function scopeProvinces($query)
     {
         return $query->whereIsRoot();
