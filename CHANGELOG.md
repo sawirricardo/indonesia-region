@@ -4,6 +4,10 @@ All notable changes to `indonesia-region` will be documented in this file.
 
 <<<<<<< Updated upstream
 
+## v1.0.6 - 2022-02-18
+
+- Use singleton
+
 ## v1.0.5 - 2022-02-11
 
 - Use kalnoy/laravel-nestedset original again
