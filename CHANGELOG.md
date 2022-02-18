@@ -4,6 +4,10 @@ All notable changes to `indonesia-region` will be documented in this file.
 
 <<<<<<< Updated upstream
 
+## v1.0.7 - 2022-02-18
+
+- disable eloquent timestamps in model
+
 ## v1.0.6 - 2022-02-18
 
 - Use singleton
