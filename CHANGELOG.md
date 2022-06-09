@@ -4,6 +4,10 @@ All notable changes to `indonesia-region` will be documented in this file.
 
 <<<<<<< Updated upstream
 
+## 1.1.0 - 2022-06-09
+
+use [Laravel Adjacency list](https://github.com/staudenmeir/laravel-adjacency-list) to handle the recursive element
+
 ## v1.0.7 - 2022-02-18
 
 - disable eloquent timestamps in model
