@@ -4,6 +4,11 @@ All notable changes to `indonesia-region` will be documented in this file.
 
 <<<<<<< Updated upstream
 
+## 1.1.1 - 2022-06-09
+
+hotfix namespace fix
+add test
+
 ## 1.1.0 - 2022-06-09
 
 use [Laravel Adjacency list](https://github.com/staudenmeir/laravel-adjacency-list) to handle the recursive element
