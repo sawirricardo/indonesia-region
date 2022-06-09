@@ -10,7 +10,7 @@ it('returns a collection of province', function () {
     /** @var Collection */
     $provinces = IndonesiaRegion::query()->provinces()->get();
     expect($provinces->every(function ($province) {
-        return $province->isRoot();
+        return is_null($province->parent_id);
     }))->toBeTrue();
 
     $cities = IndonesiaRegion::query()->provinces()->first()->cities()->take(3)->get();
