@@ -3,17 +3,17 @@
 namespace Sawirricardo\IndonesiaRegion\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Kalnoy\Nestedset\NodeTrait;
+use Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
 
 class IndonesiaRegion extends Model
 {
-    use NodeTrait;
+    use HasRecursiveRelationships;
 
     public $timestamps = false;
 
     public function scopeProvinces($query)
     {
-        return $query->whereIsRoot();
+        return $query->isRoot();
     }
 
     public function scopeCitiesOf($query, $provinceId)
