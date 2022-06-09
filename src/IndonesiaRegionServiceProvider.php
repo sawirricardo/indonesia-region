@@ -21,11 +21,4 @@ class IndonesiaRegionServiceProvider extends PackageServiceProvider
             ->hasMigration('create_indonesia_regions_table')
             ->hasCommand(IndonesiaRegionCommand::class);
     }
-
-    public function registeringPackage()
-    {
-        $this->app->singleton('indonesia-region', function () {
-            return new IndonesiaRegion();
-        });
-    }
 }
