@@ -4,6 +4,10 @@ All notable changes to `indonesia-region` will be documented in this file.
 
 <<<<<<< Updated upstream
 
+## 1.2.0 - 2023-02-15
+
+add support for laravel 10
+
 ## 1.1.1 - 2022-06-09
 
 hotfix namespace fix
