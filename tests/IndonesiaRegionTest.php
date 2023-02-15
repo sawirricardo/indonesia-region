@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Eloquent\Collection;
+
 use function Pest\Laravel\artisan;
 
 use Sawirricardo\IndonesiaRegion\Models\IndonesiaRegion;
